@@ -1,0 +1,67 @@
+.blog{
+    padding: 10px;
+    margin: 10px;
+    /* border: 5px groove white; */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.main{
+    background-color:rgb(243, 240, 240);
+    height: 100vh;
+    font-family:Roboto;
+    overflow: scroll;
+    margin:0;
+}
+
+.oneLine{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: 'Open Sans';
+}
+
+.display-break{
+    white-space: pre-line;
+    font-family: 'Syne mono';
+}
+
+.nav{
+    display:flex;
+    flex-direction: row-reverse;
+    min-height: 10vh;
+    max-width:100%;
+}
+
+.nav-links{
+    width:auto;
+    display: flex;
+    padding:10px;
+    list-style: none;
+    font-style: italic;
+}
+
+.whiteTextColor{
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.RedTextColor{
+    color:red;
+    text-decoration: none;
+}
+
+.flexDisplay{
+    display:flex;
+}
+
+.Blue{
+    color:rgb(136, 252, 252);
+    font-size: 24px;
+}
+
+*{
+    box-sizing: border-box;
+}
